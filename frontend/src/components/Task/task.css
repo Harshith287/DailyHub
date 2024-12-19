@@ -1,0 +1,18 @@
+.task-info {
+  text-justify: distribute;
+  word-wrap: break-word;
+}
+.task-color {
+  background-color: #ffffff;
+
+  color: black;
+}
+.checkbox {
+  margin-top: 0.5rem;
+  margin-right: 3%;
+  background-color: black;
+  color: #ffffff;
+  accent-color: black;
+  width: 1.2rem; /* Custom size for the checkbox */
+  height: 1.2rem; /* Custom size for the checkbox */
+}

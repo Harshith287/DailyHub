@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  background-color: rgb(188, 214, 214);
+  font-family: "Poppins", sans-serif;
+}
+/* customize scroll bar */
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.tiul .active{
+  padding: 6px 12px;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: #EDEDED;
+  color: #171717;
+}
+
+.tiul .inactive{
+  text-decoration: none;
+  color: #EDEDED;
+  
+}
+.tibg{
+  background-color: #444444;
+  border-radius: 10px;
+  padding: 1rem;
+  overflow: auto;
+}

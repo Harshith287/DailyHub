@@ -1,0 +1,88 @@
+.header {
+  height: 10dvh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3dvh 0dvw 1dvh 3dvw;
+  background-color: #171717;
+  overflow: hidden;
+}
+.app-component-btns {
+  display: flex;
+  height: 7dvh;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-between;
+}
+.component-container {
+  display: flex;
+  width: 75dvw;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.components-list {
+  display: flex;
+  align-items: center;
+  width: 40dvw;
+  margin-left: 10dvw;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.component {
+  text-decoration: none;
+  color: #ededed;
+  font-size: 18px;
+  font-weight: 500;
+}
+.component-container ul li .active {
+  background-color: #ededed;
+  color: #171717;
+  padding: 6px 12px 8px 12px;
+  border-radius: 50px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-out 0s;
+}
+.component:hover:not(.active) {
+  color: #DA0037;
+  
+  /* font-weight: bold; */
+}
+.welcome-text {
+  color: #ededed;
+  font-size: 18px;
+  /* font-weight: 500; */
+  font-family: sans-serif;
+}
+.app-name-component {
+  color: #ededed;
+  font-family: cursive;
+  text-decoration: none;
+  font-size: 30px;
+  padding-bottom: 5dvh;
+}
+.app-name {
+  /* color: #ffffff;
+  font-family: cursive;
+  text-decoration: none;
+  font-size: 20px; */
+  margin-bottom: 2dvh;
+}
+.header-last {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #171717;
+}
+.logout {
+  color: #ededed;
+  background-color: #DA0037;
+  padding: 6px 12px 8px 12px;
+  margin-bottom: 2dvh;
+  margin-left: 1.5dvw;
+  border-radius: 50px;
+  /* box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5); */
+}
+.logout:hover {
+  background-color: red;
+}

@@ -1,0 +1,79 @@
+.notes {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.note-details {
+  background: #fff;
+  border-radius: 4px;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+  position: relative;
+  overflow: hidden;
+}
+
+.note-details h4 {
+  cursor: default;
+  margin: 0 0 10px;
+  font-size: 1.2em;
+  color: var(--primary);
+}
+
+.text {
+  cursor: default;
+  width: auto;
+  height: 90px;
+  overflow: hidden;
+}
+.note-details p{
+  margin: 0;
+  font-size: 0.8em;
+  color: #555;
+  white-space: pre-wrap;
+}
+.datetime {
+  cursor: default;
+  font-size: 0.7em;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  margin: 0;
+}
+
+
+.note-details span {
+  padding: 5px;
+  border-radius: 100%;
+  cursor: pointer;
+  font-size: medium;
+  padding: 5px;
+}
+
+.note-details span:hover {
+  background-color: #f3eded;
+}
+
+.bookmark{
+  position: absolute;
+  bottom: 10px;
+  right: 40px;
+}
+
+.delete{
+  color: rgb(247, 146, 146);
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  
+}
+
+.bookmark.bookmarked {
+  color: rgb(251, 224, 72);
+  font-weight: bolder;
+}

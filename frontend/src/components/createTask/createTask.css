@@ -1,0 +1,31 @@
+.toast{
+    display: none;
+}
+
+.create-task-btn{
+    position: fixed;
+    bottom: 35px; /* Adjust the value as needed */
+    right: 35px;  /* Adjust the value as needed */
+    padding: 15px 30px;
+    background-color: #DA0037  ;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.create-task-btn:hover{
+    background-color: red;
+}
+/* Targeting WebKit-based browsers */
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+/* Optional: Dark mode specific adjustments if needed */
+input[type="date"].dark::-webkit-calendar-picker-indicator,
+input[type="time"].dark::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}

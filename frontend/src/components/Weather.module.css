@@ -1,0 +1,135 @@
+.weatherApp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.text1{
+  color:black;
+}
+.weatherContainer {
+  border-radius: 15px;
+  padding: 20px;
+  background: linear-gradient(135deg, #6db3f2 0%, #1e69de 100%);
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: auto;
+  margin: 20px;
+}
+
+.weatherAppTopBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+   
+}
+.weatherAppTopBar h1{
+  margin: 0;
+}
+
+.weatherTopBar {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  margin: auto;
+}
+
+.cityInput {
+  padding: 10px;
+  border-radius: 20px; /* Adjust border-radius for rounded corners */
+  border: 2px solid #ffffff; /* Add border for better visibility */
+  background-color: #ffffff; /* Set background color */
+  margin-right: 10px;
+  max-width: 600px;
+  min-width: 150px;
+}
+
+.weatherSearchIcon {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+
+.weatherAppBottomBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.currentWeather {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+
+.currentWeatherInfo {
+  display: flex;
+  align-items: center;
+}
+
+.weatherIcon {
+  width: 80px;
+  height: 80px;
+}
+
+.temp {
+  display: flex;
+  align-items: baseline;
+}
+
+.displayTemp {
+  font-size: 48px;
+  margin-left: 10px;
+}
+.displayTemp sup{
+  font-size: medium;
+}
+
+.weatherSub {
+  font-size: 24px;
+}
+
+.weatherPhrase {
+  font-size: 24px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.weatherMessage {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.weatherDetails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.weatherItems {
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px; /* Fixed width for each weather detail */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.weatherItemName {
+  font-size: 16px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.weatherItemValue {
+  font-size: 18px;
+  text-align: center;
+}
+
