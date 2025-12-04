@@ -21,7 +21,7 @@ const app = express();
 mongoose.set('strictQuery', true);
 
 const allowedOrigins = [
-  "http://localhost:3000",
+  "*",
   // "https://thedailyhub.com"
 ];
 
